@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" 
+    xmlns:th="http://www.thymeleaf.org" 
+    xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="ISO-8859-1">
+<title>Get Status Info</title>
+</head>
+<body>
+	<form method="POST" action="/getStatus">
+        <input type="text" placeholder="Enter employee ID" name="empid"><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

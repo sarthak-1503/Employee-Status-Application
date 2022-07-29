@@ -8,8 +8,6 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 
 @SpringBootApplication(scanBasePackages={
 "com.springbootapi"},exclude = {JpaRepositoriesAutoConfiguration.class, DataSourceAutoConfiguration.class})
-//@ComponentScan({"com.springbootapi"})
-//@Configuration
 @EnableMongoRepositories("com.springbootapi.repository")
 public class FirstapiApplication {
 
